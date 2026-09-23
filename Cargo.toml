@@ -1,0 +1,16 @@
+[package]
+name = "tomlq"
+version = "0.1.0"
+edition = "2021"
+description = "A fast, CLI-based dot-path getter/setter for TOML files"
+license = "MIT"
+authors = ["Animesh Raj <animesh080808@gmail.com>"]
+repository = "https://github.com/itsarraj/tomlq"
+readme = "README.md"
+keywords = ["toml", "jq", "cli"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+toml_edit = "0.22"
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
